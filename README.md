@@ -16,17 +16,14 @@ pip3 install vtk
 ```
 
 ## Basic usage
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/11873158/41673413-27f33548-74bd-11e8-889e-4403ce3fff37.png"/>
-<h4 align="center">Available operators</h4>
-</p>
-
 The following operations are possible from the ISCD tab:
 1. **Import a .mesh**: imports a .mesh file in blender.
 2. **Export a .mesh**: exports a blender object to a user-specified .mesh file, using objects materials as references.
 3. **Import a .mesh sequence**: imports a sequence of .mesh objects - in the format result.x.mesh, x being an integer number - to blender. Use the "morphing" for constant number of triangles, and the "fluidsim" for varying number of triangles.
 4. **Import FDS results**: imports results (flame and smoke) from a [FDS](https://pages.nist.gov/fds-smv/) simulation as isosurfaces. Requires a python3 vtk installation.
+<p align="center">
+<img src="https://user-images.githubusercontent.com/11873158/41673413-27f33548-74bd-11e8-889e-4403ce3fff37.png"/>
+</p>
 
 ## Advanced usage
 Other examples of fluid import/export usage,  can be found on the 2017 summer school [repository](https://github.com/ISCDtoolbox/pythonMesh).
