@@ -1,5 +1,5 @@
 # ISCD blender addon
-An addon for blender to interact with [ASCII .mesh files](https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION00031000000000000000)
+An addon for blender to interact with ASCII [.mesh files](https://www.ljll.math.upmc.fr/frey/logiciels/Docmedit.dir/Docmedit.html#SECTION00031000000000000000), and for instance [mmgtools](http://mmgtools.org), [tetgen](http://wias-berlin.de/software/index.jsp?id=TetGen&lang=1), [metis](http://glaros.dtc.umn.edu/gkhome/metis/metis/overview), [medit](https://github.com/ISCDtoolbox/Medit) and [other tools](https://github.com/ISCDtoolbox) developed at the [ISCD](http://iscd.upmc.fr).
 
 ## Installation
 You will need to have a working version of blender (>2.77) on a linux or MacOs system, available for download on [this page](https://www.blender.org/download/).
@@ -25,3 +25,7 @@ The following operations are possible from the ISCD tab:
 2. **Export a .mesh**:
 3. **Import a .mesh sequence**: 
 4. **Import FDS results**:
+
+## Interface
+
+See the [2017 ISCD's summer school]() [repository](https://github.com/ISCDtoolbox/pythonMesh) for a use case.
