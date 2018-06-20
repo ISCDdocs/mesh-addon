@@ -11,4 +11,17 @@ In order to use the FDS import, you will need to have an active version of pytho
 pip3 install vtk
 ```
 
+Once installed, the addon operators will be available in the properties panel of blender, on the left side of the 3D view, under the "ISCD" tab.
+
 ## Utilisation
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/11873158/41673413-27f33548-74bd-11e8-889e-4403ce3fff37.png"/>
+<h4 align="center">Available operators</h4>
+</p>
+
+The following operations are possible from the ISCD tab:
+1. **Import a .mesh**:
+2. **Export a .mesh**:
+3. **Import a .mesh sequence**: 
+4. **Import FDS results**:
