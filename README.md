@@ -14,6 +14,10 @@ Note that in order to use the FDS import, you will need to have an active versio
 ```
 pip3 install vtk
 ```
+To do so, you might need to install pip for python3. On linux:
+```
+sudo apt-get install python3-pip
+```
 
 ## Basic usage
 The following operations are possible from the ISCD tab:
