@@ -2,9 +2,7 @@ import bpy
 import os
 from bpy_extras.io_utils import ImportHelper, ExportHelper
 from shutil import copyfile
-from . import msh
 
-import vtk
 import numpy as np
 from . import msh
 import gzip
